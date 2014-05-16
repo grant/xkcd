@@ -22,6 +22,24 @@ xkcd(532, function (err, data) {
 });
 ```
 
+### response example
+
+```js
+{
+  month: "5",
+  num: 1369,
+  link: "",
+  year: "2014",
+  news: "",
+  safe_title: "TMI",
+  transcript: "",
+  alt: "'TMI' he whispered, gazing into the sea.",
+  img: "http://imgs.xkcd.com/comics/tmi.png",
+  title: "TMI",
+  day: "16"
+}
+```
+
 ## fields
 
 - `alt` (String) Img alt text
