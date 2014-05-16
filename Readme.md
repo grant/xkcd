@@ -53,3 +53,7 @@ xkcd(532, function (err, data) {
 - `title` (String) Title
 - `transcript` (String) Transcript
 - `year` (String) Year
+
+## notes
+
+- xkcd 404 throws an error since there is no comic for this id.
