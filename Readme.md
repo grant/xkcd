@@ -24,14 +24,14 @@ xkcd(532, function (err, data) {
 
 ## fields
 
-- `month` (String) Month number as a string
-- `num` (int) Id
-- `link` (String) External links (may be empty)
-- `year` (String) Year
-- `news` (String) News
-- `safe_title` (String) Safe title
-- `transcript` (String) Transcript
 - `alt` (String) Img alt text
-- `img` (URL) Img URL
-- `title` (String) Title
 - `day` (String) The day # as a string
+- `img` (URL) Img URL
+- `link` (String) External links (may be empty)
+- `month` (String) Month number as a string
+- `news` (String) News
+- `num` (int) Id
+- `safe_title` (String) Safe title
+- `title` (String) Title
+- `transcript` (String) Transcript
+- `year` (String) Year
