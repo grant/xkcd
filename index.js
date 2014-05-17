@@ -21,10 +21,10 @@ function current (id, cb) {
 
     res.on('end', function() {
       var data = JSON.parse(body);
-      cb(undefined, data);
+      cb(data, err);
     });
   }).on('error', function(err) {
-    cb(err);
+    cb(undefined, err);
   });
 }
 

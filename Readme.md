@@ -16,17 +16,17 @@ npm install xkcd --save
 var xkcd = require('xkcd');
 
 // Get the current xkcd
-xkcd(function (err, data) {
+xkcd(function (data) {
   console.log(data);
 });
 
 // Get a specific xkcd
-xkcd(532, function (err, data) {
+xkcd(532, function (data) {
   console.log(data);
 });
 ```
 
-### response example
+### response data example
 
 ```js
 {
