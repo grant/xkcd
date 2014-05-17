@@ -1,6 +1,10 @@
 # xkcd
 
-A simple xkcd API.
+A simple [xkcd](http://xkcd.com/) API.
+
+## download from npm
+
+npm: [xkcd](https://www.npmjs.org/package/xkcd)
 
 ```bash
 npm install xkcd --save
