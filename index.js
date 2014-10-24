@@ -8,7 +8,6 @@ var PATH = 'info.0.json';
 // @param cb [Function] The callback that passes (`err`, `data`)
 // @example current(2, function(err, data){ console.log(data); });
 function current (id, cb) {
-
   var idURL = id ? id + '/' : '';
   var url = DOMAIN + idURL + PATH;
 
