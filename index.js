@@ -21,7 +21,7 @@ function current (id, cb) {
 
     res.on('end', function() {
       var data = JSON.parse(body);
-      cb(data, err);
+      cb(data, undefined);
     });
   }).on('error', function(err) {
     cb(undefined, err);
