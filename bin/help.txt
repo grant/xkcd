@@ -1,0 +1,10 @@
+===========================
+XKCD Command Line Interface
+===========================
+
+Usage: xkcd <command>
+
+xkcd 			open latest xkcd
+xkcd latest		open latest xkcd
+xkcd <num>		open xkcd by number
+xkcd help		display this page
