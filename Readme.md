@@ -58,6 +58,27 @@ xkcd(532, function (data) {
 - `transcript` (String) Transcript
 - `year` (String) Year
 
+## command line
+
+This module can also be installed as a command line utility.
+
+**Global Installation**
+
+```bash
+npm install -g xkcd
+```
+
+**Usage**
+
+```
+Usage: xkcd <command>
+
+xkcd          open latest xkcd
+xkcd latest   open latest xkcd
+xkcd <num>    open xkcd by number
+xkcd help     display this page
+```
+
 ## notes
 
 - xkcd 404 throws an error since there is no comic for this id.
