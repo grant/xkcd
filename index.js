@@ -1,6 +1,6 @@
-var http = require('http');
+var https = require('https');
 
-var DOMAIN = 'http://xkcd.com/';
+var DOMAIN = 'https://xkcd.com/';
 var PATH = 'info.0.json';
 
 // Gets the current xkcd.
@@ -11,7 +11,7 @@ function current (id, cb) {
   var idURL = id ? id + '/' : '';
   var url = DOMAIN + idURL + PATH;
 
-  http.get(url, function(res) {
+  https.get(url, function(res) {
     var body = '';
 
     res.on('data', function(chunk) {
