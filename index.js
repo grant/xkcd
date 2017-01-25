@@ -44,6 +44,4 @@ var xkcd = function () {
   }
 };
 
-xkcd((data) => console.log(data));
-
 module.exports = xkcd;
